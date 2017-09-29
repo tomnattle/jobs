@@ -1,0 +1,11 @@
+2017-2-15
+	增加split的autofix 服务器启动时，自动将遗留任务的pre_status未processing的修改为ready 出现的新问题，日志重复
+	增加mail-send批次的autofix 服务器启动时，自动将遗留批次的_status未processing的修改为ready 
+
+	增加export reportexport import等的autofix  服务器启动时，自动将遗留任务的_status未processing的修改为ready 
+
+	启动时 检查以往master状态 全部设置为exit
+
+	启动时 检测以往slaver状态 全部设置为exit
+
+	任务结束 机器中的任务数量不减少

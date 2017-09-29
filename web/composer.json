@@ -1,0 +1,9 @@
+{
+    "require": {
+        "nategood/httpful": "^0.2.20",
+        "swiftmailer/swiftmailer": "^5.4",
+        "php-activerecord/php-activerecord": "^1.1",
+        "league/csv": "^8.0",
+        "phpmailer/phpmailer": "^5.2"
+    }
+}

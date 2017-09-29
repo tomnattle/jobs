@@ -1,0 +1,11 @@
+2017-02-15
+	slaver-send挂掉,磁盘满，日志无法写入，清空日志磁盘结局问题
+	解决：取消单个邮件的日志
+2017-02-16
+	发送服务器挂机 原因 cpu100%持续时间较长 导致服务器无响应
+	解决：重启发送服务器 
+	master奔溃
+	Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) /data/site/wpjob/event/eventManager.php 32  
+	解决：内存增加到256 等下一次crash
+
+	
